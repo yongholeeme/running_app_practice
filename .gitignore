@@ -1,3 +1,7 @@
+# key files
+google-services.json
+AndroidManifest.xml
+
 # Miscellaneous
 *.class
 *.lock
