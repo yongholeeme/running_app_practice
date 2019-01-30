@@ -15,6 +15,7 @@ class AuthBloc {
   AuthBloc(this._firebaseAuth, this._googleSignIn){
   }
 
+  // Stream of User State
   Stream<FirebaseUser> get activeUser =>
     _firebaseAuth.onAuthStateChanged.asBroadcastStream();
 
